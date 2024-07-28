@@ -1,8 +1,18 @@
 # feedback-prize-english-language-learning
+```
+poetry install
+poetry shell
+poetry run pytest
+poetry run mypy .
+poetry add --dev pre-commit
+poetry run pre-commit install
+./pre-commit.sh  src/
+<!-- poetry run pre-commit run --all-files -->
+poetry run pylint feedback_prize_english_language_learning
+poetry run bandit -r feedback_prize_english_language_learning
 
-Repository is created with deepsense.ai project template boilerplate. Adapt to your needs.
-Documentation is available at [https://deepsense-ai.github.io/ds-template/](https://deepsense-ai.github.io/ds-template/).
 
+```
 
 # Setup developer environment
 

@@ -1,9 +1,47 @@
 [build-system]
-requires = [
-    "setuptools >= 40.9.0",
-    "wheel",
-]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "feedback-prize-english-language-learning"
+version = "0.1.0"
+description = "feedback-prize-english-language-learning"
+authors = ["jsmok <jedrzejsmok55@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+# Add your dependencies here, for example:
+# numpy = "^1.21.0"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+mlflow = "^2.14.3"
+pandas = "^2.2.2"
+torch = "^2.3.1"
+sentence-transformers = "^3.0.1"
+seaborn = "^0.13.2"
+sentencepiece = "^0.2.0"
+scikit-learn = "^1.5.1"
+lightning = "^2.3.3"
+pytorch-ignite = "^0.5.0.post2"
+
+[tool.poetry.dev-dependencies]
+# Add your development dependencies here, for example:
+# pytest = "^6.2.4"
+
+[tool.poetry.scripts]
+# Add any scripts here if necessary
+
+#[build-system]
+#requires = [
+#    "setuptools >= 40.9.0",
+#    "wheel",
+#]
+#build-backend = "setuptools.build_meta"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+bandit = "^1.7.9"
 
 [tool.isort]
 multi_line_output=3
