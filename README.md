@@ -7,24 +7,39 @@ The goal of this project is to develop models that accurately assess the quality
 
 
 # Source folder
-[Go to the `lib` folder](./src/feedback_prize_english_language_learning/lib)
+[Go to the source folder](./src/feedback_prize_english_language_learning/lib)
 
 ## Source folder structure
 lib/
+
 ├── data/
+
 │ ├── init.py
+
 │ ├── data_module.py
+
 │ └── data_utils.py
+
 ├── models/
+
 │ ├── BertRegression.py
+
 │ └── init.py
+
 ├── visualizations/
+
 │ ├── init.py
+
 │ └── eda.py
+
 ├── init.py
+
 ├── config.py
+
 ├── consts.py
+
 ├── trainer.py
+
 └── utils.py
 
 
