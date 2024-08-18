@@ -1,4 +1,43 @@
 # feedback-prize-english-language-learning
+This project is part of the [Feedback Prize - English Language Learning on Kaggle](https://www.kaggle.com/competitions/feedback-prize-english-language-learning).
+
+
+The goal of this project is to develop models that accurately assess the quality of English language learners' writing, in line with the objectives of the Kaggle competition.
+
+
+
+# Source folder
+[Go to the `lib` folder](./src/feedback_prize_english_language_learning/lib)
+
+## Source folder structure
+lib/
+├── data/
+│ ├── init.py
+│ ├── data_module.py
+│ └── data_utils.py
+├── models/
+│ ├── BertRegression.py
+│ └── init.py
+├── visualizations/
+│ ├── init.py
+│ └── eda.py
+├── init.py
+├── config.py
+├── consts.py
+├── trainer.py
+└── utils.py
+
+
+
+To get started, explore the files in the `lib` directory which contains the core logic of the project.
+
+
+
+# Setup developer environment
+
+To start, you need to setup your local machine.
+
+## Getting Started with code running
 ```
 poetry install
 poetry shell
@@ -13,10 +52,6 @@ poetry run bandit -r feedback_prize_english_language_learning
 
 
 ```
-
-# Setup developer environment
-
-To start, you need to setup your local machine.
 
 ## Setup venv
 
