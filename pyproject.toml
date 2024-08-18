@@ -23,6 +23,7 @@ sentencepiece = "^0.2.0"
 scikit-learn = "^1.5.1"
 lightning = "^2.3.3"
 pytorch-ignite = "^0.5.0.post2"
+tensorboard = "^2.17.0"
 
 [tool.poetry.dev-dependencies]
 # Add your development dependencies here, for example:
