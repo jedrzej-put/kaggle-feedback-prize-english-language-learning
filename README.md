@@ -46,6 +46,14 @@ lib/
 
 To get started, explore the files in the `lib` directory which contains the core logic of the project.
 
+## Test Results Summary
+
+| Test Type  | Test Metric | DataLoader 0 Value |
+|------------|-------------|-------------------|
+| Vocabulary | RMSE        | 0.42812013626098633  |
+| Vocabulary | Loss        | 0.10702415555715561  |
+| Grammar    | RMSE        | 0.47667704796791077  |
+| Grammar    | Loss        | 0.11766650527715683  |
 
 
 # Setup developer environment
